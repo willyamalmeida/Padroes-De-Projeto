@@ -1,0 +1,6 @@
+D:\Estudos\Blog\Padrões de Projeto\Exemplos\CSharp\Padrões de Projetos\AppPadroesDeProjeto\bin\Debug\AppPadroesDeProjeto.exe.config
+D:\Estudos\Blog\Padrões de Projeto\Exemplos\CSharp\Padrões de Projetos\AppPadroesDeProjeto\bin\Debug\AppPadroesDeProjeto.exe
+D:\Estudos\Blog\Padrões de Projeto\Exemplos\CSharp\Padrões de Projetos\AppPadroesDeProjeto\bin\Debug\AppPadroesDeProjeto.pdb
+D:\Estudos\Blog\Padrões de Projeto\Exemplos\CSharp\Padrões de Projetos\AppPadroesDeProjeto\obj\Debug\AppPadroesDeProjeto.csprojResolveAssemblyReference.cache
+D:\Estudos\Blog\Padrões de Projeto\Exemplos\CSharp\Padrões de Projetos\AppPadroesDeProjeto\obj\Debug\AppPadroesDeProjeto.exe
+D:\Estudos\Blog\Padrões de Projeto\Exemplos\CSharp\Padrões de Projetos\AppPadroesDeProjeto\obj\Debug\AppPadroesDeProjeto.pdb

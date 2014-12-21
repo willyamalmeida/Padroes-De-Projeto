@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D594E776-019C-4185-A091-3E70DCA9F0A9}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AppPadroesDeProjeto</RootNamespace>
+    <AssemblyName>AppPadroesDeProjeto</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Padroes\Abstract_Factory\ClientAbstractFactory.cs" />
+    <Compile Include="Padroes\Abstract_Factory\AbstractFactory.cs" />
+    <Compile Include="Padroes\Abstract_Factory\AbstractProductA.cs" />
+    <Compile Include="Padroes\Abstract_Factory\AbstractProductB.cs" />
+    <Compile Include="Padroes\Abstract_Factory\ConcreteFactory1.cs" />
+    <Compile Include="Padroes\Abstract_Factory\ConcreteFactory2.cs" />
+    <Compile Include="Padroes\Abstract_Factory\ProductA1.cs" />
+    <Compile Include="Padroes\Abstract_Factory\ProductA2.cs" />
+    <Compile Include="Padroes\Abstract_Factory\ProductB1.cs" />
+    <Compile Include="Padroes\Abstract_Factory\ProductB2.cs" />
+    <Compile Include="Problemas\AbstractFactory\Asa.cs" />
+    <Compile Include="Problemas\AbstractFactory\AsaDoAviaoAJato.cs" />
+    <Compile Include="Problemas\AbstractFactory\AsaDoAviaoAMotor.cs" />
+    <Compile Include="Problemas\AbstractFactory\AsaDoAviaoSupersonico.cs" />
+    <Compile Include="Problemas\AbstractFactory\Corpo.cs" />
+    <Compile Include="Problemas\AbstractFactory\CorpoDoAviaoAJato.cs" />
+    <Compile Include="Problemas\AbstractFactory\CorpoDoAviaoAMotor.cs" />
+    <Compile Include="Problemas\AbstractFactory\CorpoDoAviaoSupersonico.cs" />
+    <Compile Include="Problemas\AbstractFactory\Empenagem.cs" />
+    <Compile Include="Problemas\AbstractFactory\EmpenagemDoAviaoAJato.cs" />
+    <Compile Include="Problemas\AbstractFactory\EmpenagemDoAviaoAMotor.cs" />
+    <Compile Include="Problemas\AbstractFactory\EmpenagemDoAviaoSupersonico.cs" />
+    <Compile Include="Problemas\AbstractFactory\FabricaDeAviao.cs" />
+    <Compile Include="Problemas\AbstractFactory\FabricaDeAviaoAJato.cs" />
+    <Compile Include="Problemas\AbstractFactory\FabricaDeAviaoAMotor.cs" />
+    <Compile Include="Problemas\AbstractFactory\FabricaDeAviaoSupersonico.cs" />
+    <Compile Include="Problemas\Utilitarios\Enumeradores\TipoDeAviao.cs" />
+    <Compile Include="Problemas\Utilitarios\Fabricas\FabricaDeObjeto.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Padroes\Utilitarios\Enumeradores\TipoDeFabrica.cs" />
+    <Compile Include="Padroes\Utilitarios\Fabricas\Factory.cs" />
+    <Compile Include="Padroes\Utilitarios\Fabricas\FactoryProduct.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
